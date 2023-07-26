@@ -65,7 +65,7 @@ stage('Plot Code Coverage Report') {
                     "files": [
                       {
                        "pattern": "php-todo.zip",
-                       "target": "http://3.93.143.155:8082/artifactory/php-todo",
+                       "target": "todo-artifacts/php-todo",
                        "props": "type=zip;status=ready"
 
                        }
